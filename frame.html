@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mellodify - Web Player: Music for everyone'</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/utility.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+
+<body>
+    <!-- <img src="logo.svg" alt=""> -->
+    <div class="container flex ">
+
+        <div class="left  bg-black">
+            <div class="close">
+                <img class="invert" src="img/close.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded m1 p1">
+                <div class="logo"><img class="invert" src="img/mlogo.svg" alt=""><span><b>Mellodify</b></span></div>
+
+                <ul>
+                    <li><img class="invert" src="img/home.svg" alt="Home"><span><b>Home</b></span></li>
+                    <li><img class="invert" src="img/search.svg" alt="Search"><span><b>Search</b></span></li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m1 p1">
+                <div class="heading">
+                    <img class="invert" src="img/playlist.svg" alt="Library">
+
+                    <h3>
+                        Your Library
+                    </h3>
+
+
+                </div>
+                <div class="songlist">
+                    <ul>
+
+                    </ul>
+                </div>
+
+
+                <div class="footer">
+                    <div class="sec1">
+
+                        <a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp; Privacy
+                                Center</span></a>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                        <a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a>
+                    </div>
+                    <div class="sec2">
+                        <p>© 2025 Mellodify DC</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+        <div class="right bg-grey rounded ">
+            <div class="header rounded ">
+                <div class="nav">
+                   <img class="invert hamberger" src="img/hamberger.svg" alt="">
+                    <img class="invert" src="img/left.svg" alt="Left">
+                    <img class="invert" src="img/right.svg" alt="Right">
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign Up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+
+            </div>
+            <div class="mellodyplaylist">
+                <h2>Mellodify Playlist </h2>
+                <div class="cardcontainer">
+         
+                
+
+                </div>
+                <div class="playbar">
+
+                    <div class="items">
+                        
+                        <div class="seekbar"></div>
+                        <div class="circle" ></div>
+                    </div>
+
+                    <div class="songinfo"> </div>
+
+                    <div class="songdetails">
+
+                        
+                        <div class="displayinfo"></div>
+                        
+                        <div class="songbuttons">
+                            <img id="previous" class="invert" src="img/previoussong.svg" alt="">
+                            <img id="playon" class="invert" src="img/playsong.svg" alt="">
+                            <img id="next" class="invert" src="img/nextsong.svg" alt="">
+                        </div>
+                        <div class="timevol">
+
+                            <div class="songtime">
+                            </div>
+                            <div class=" volume">
+                                <img width=25px class="invert" src="img/volume.svg" alt="">
+                                <div class="range">
+                                    <label for="volcontrol">vol</label>
+                                    <input  type="range" name="volume" id="volcontrol" max="100" min="0" value="50">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
