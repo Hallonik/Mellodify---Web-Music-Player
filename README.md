@@ -27,7 +27,7 @@ Installation
 
 Clone the repository or download the source code.
 
-git clone https://github.com/yourusername/mellodify.git
+git clone https://github.com/Hallonik/mellodify.git
 
 Navigate to the project directory.
 
