@@ -27,7 +27,7 @@ Installation
 
 Clone the repository or download the source code.
 
-git clone (https://github.com/Hallonik/Mellodify---Web-Music-Player.git)
+git clone https://github.com/Hallonik/Mellodify---Web-Music-Player.git
 
 Navigate to the project directory.
 
